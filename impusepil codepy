@@ -1,0 +1,15 @@
+n=1
+#do not edit the code 
+
+print ("try to type the 4 digit code")
+
+tr_code = input()
+
+while n == n:
+ gess = input()
+ if gess == tr_code:
+   print ("you fund the code and know the sercrit find thwe nex code")
+   gess = input()
+   tr_code = input()
+ else:
+   print ("that not the code"
